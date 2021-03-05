@@ -1,0 +1,23 @@
+{
+  "name": "pictionnary-2021-b3g1",
+  "version": "0.0.1",
+  "description": "exercice school",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurhaufroid/pictionnary-2021-B3G1.git"
+  },
+  "author": "Arth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurhaufroid/pictionnary-2021-B3G1/issues"
+  },
+  "homepage": "https://github.com/arthurhaufroid/pictionnary-2021-B3G1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^3.1.2"
+  }
+}
