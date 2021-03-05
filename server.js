@@ -44,6 +44,10 @@ io.on('connection', (socket) => {
             return user !== socket
         });
         sendUsers();
+
+        if(user.length === 0){
+            timeout = clearTimeout(timeout);
+        }
     });
 
     socket.on('line', (data) => {
